@@ -26,10 +26,14 @@ The link to the course is : [Course URL](https://learn.deeplearning.ai/langchain
 - cd flask_application
 - python app.py
 
+### How to run the application 
 The library packages are present inside requirements.txt. They can be installed using.
 - pip install -r requirements.txt
 
-- please update your own personal keys in the .env file
-    - OPEN AI API KEY
-    - HUGGING FACE API KEY
+- Create a .env file in the main foler of flask applicaton.
+- Generate your API KEYS/ TOKENS fromt he hgging face and OPENAI
+- Add your keys in the .env file. Just like below
+
+HUGGINGFACEHUB_API_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
